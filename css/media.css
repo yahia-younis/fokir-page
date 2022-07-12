@@ -1,0 +1,141 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .nav_links {
+    display: none;
+  }
+  .navbar {
+    text-align: center;
+  }
+  .about_box {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .about_info {
+    width: 100%;
+  }
+  .about_desc ul li {
+    width: 50%;
+  }
+  .serv_box {
+    width: 100%;
+  }
+  .cat_photo .cat_photo_box {
+    width: 100%;
+  }
+  .statics_area .static_box {
+    width: 50%;
+    margin: 30px 0;
+  }
+  .feedback_box {
+    width: 100%;
+  }
+  .feedback_box {
+    text-align: center;
+  }
+  .client_photo {
+    width: auto;
+    margin: 20px;
+    display: contents;
+  }
+  .client_content {
+    width: 100%;
+  }
+  .blog_content .blog_box {
+    width: 100%;
+    float: none;
+    margin: auto;
+  }
+  .contact_area form {
+    width: 100%;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .nav_links {
+    display: none;
+  }
+  .navbar {
+    text-align: center;
+  }
+  .about_box {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .about_info {
+    width: 100%;
+  }
+  .about_desc ul li {
+    width: 50%;
+  }
+  .serv_box {
+    width: 100%;
+  }
+  .cat_photo .cat_photo_box {
+    width: 50%;
+  }
+  .statics_area .static_box {
+    width: 50%;
+    margin: 30px 0;
+  }
+  .feedback_box {
+    width: 100%;
+  }
+  .feedback_box {
+    text-align: center;
+  }
+  .client_photo {
+    width: auto;
+    margin: 20px;
+    display: contents;
+  }
+  .client_content {
+    width: 100%;
+  }
+  .blog_content .blog_box {
+    width: 70%;
+    float: none;
+    margin: auto;
+  }
+}
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .about_box {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .about_info {
+    width: 100%;
+  }
+  .nav_links {
+    display: none;
+  }
+  .navbar {
+    text-align: center;
+  }
+  .serv_box {
+    width: 50%;
+  }
+  .cat_photo .cat_photo_box {
+    width: 50%;
+  }
+  .feedback_box {
+    width: 90%;
+  }
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .about_box {
+    padding-right: 35px;
+  }
+  .serv_box {
+    width: 50%;
+  }
+}
+@media (min-width: 1400px) {
+.container {
+  width: 65%;
+}
+}
